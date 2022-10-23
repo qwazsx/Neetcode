@@ -20,9 +20,6 @@
 # Input: nums = [3,3], target = 6
 # Output: [0,1]
 
-from operator import indexOf
-
-
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
         hashmap = {} # hashmap value : index
